@@ -1,47 +1,25 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Logs
+logs
+*.log
+npm-debug.log*
 
-# Folder config file
-Desktop.ini
+# Runtime data
+pids
+*.pid
+*.seed
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Dependency directories
+node_modules
+jspm_packages
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Optional npm cache directory
+.npm
 
-# Windows shortcuts
-*.lnk
+# Optional REPL history
+.node_repl_history
 
-# =========================
-# Operating System Files
-# =========================
+# Bundle
+dist/
 
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# IDE
+.idea/
